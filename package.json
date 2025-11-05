@@ -6,7 +6,7 @@
         "server": "cd backend && npm run start",
         "client": "cd frontend && npm run start"
     },
-    "author": "Hrutav Modha",
+    "author": "Akshat Parashar",
     "description": "An ECommerce Website made using MERN stack",
     "devDependencies": {
         "concurrently": "^9.1.2"
