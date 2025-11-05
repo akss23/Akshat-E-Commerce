@@ -40,7 +40,7 @@ This project supports multiple package managers:
 
 **1. Clone the repository** 
    ```Bash
-   git clone "https://github.com/rutu-modha/e-commerce.git"
+   git clone "https://github.com/akss23/e-commerce.git"
 cd ./e-commerce
 ```
 
