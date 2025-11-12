@@ -1,14 +1,16 @@
 import express from "express";
+import cors from "cors";
 
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// basic route to check deployment
+// ✅ Allow requests from any frontend
+app.use(cors());
+
 app.get("/", (req, res) => {
   res.send("🚀 Akshat E-Commerce Server is running successfully!");
 });
 
-// start server
 app.get("/products", (req, res) => {
   res.json([
     { id: 1, name: "T-shirt", price: 499 },
